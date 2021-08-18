@@ -9,7 +9,7 @@ use pocketmine\Player;
 class delete  {
 
     /** @var IslandManager */
-    private $islandManager;
+    private static $instance;
 
 public function getName(): string {
         return "delete";
